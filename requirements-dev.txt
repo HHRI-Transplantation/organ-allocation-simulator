@@ -1,0 +1,6 @@
+covdefaults
+polars
+pre-commit
+pytest
+pytest-cov
+tox
