@@ -8,7 +8,7 @@ In the future I hope to upload this to pypi. For now pip install
 directly from git.
 
 ```
-> pip install git+https://gitlab.cdrg.org/simtools/oasim
+> pip install git+https://github.com/HHRI-Transplantation/organ-allocation-simulator
 ```
 
 # Usage
