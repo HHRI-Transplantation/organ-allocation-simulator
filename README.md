@@ -1,3 +1,5 @@
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/HHRI-Transplantation/organ-allocation-simulator/main.svg)](https://results.pre-commit.ci/latest/github/HHRI-Transplantation/organ-allocation-simulator/main)
+
 # oasim
 
 Organ Allocation Simulator?
