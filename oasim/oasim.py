@@ -49,7 +49,7 @@ def OrganAllocationSimulator(
     with tempfile.TemporaryDirectory() as tmpdir:
         db_path = os.path.join(tmpdir, 'db.db')
         with contextlib.closing(sqlite3.connect(db_path)) as conn:
-            conn.cursor().execute('PRAGMA journal_mode = WAL;')
+            conn.cursor().execute('PRAGMA synchronous = OFF;')
             sim = _OrganAllocationSimulator(
                 candidate_id,
                 donor_id,
